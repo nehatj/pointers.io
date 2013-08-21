@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration
+END
+_password_reset_confirm.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/_password_reset_confirm.html
+END
+activation_complete.bak
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/activation_complete.bak
+END
+activation_email.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/activation_email.txt
+END
+_password_reset_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/_password_reset_form.html
+END
+activation_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/activation_complete.html
+END
+activate.bak
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/activate.bak
+END
+_password_reset_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/_password_reset_complete.html
+END
+registration_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/registration_form.html
+END
+activate.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/activate.html
+END
+registration_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/registration_complete.html
+END
+activation_email_subject.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/activation_email_subject.txt
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/login.html
+END
+_password_reset_done.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/_password_reset_done.html
+END
+logout.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/evl.evl/!svn/ver/13/evd/web/templates/registration/logout.html
+END
+registration_form_bak.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/registration_form_bak.html
+END
+_password_reset_email.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/evl.evl/!svn/ver/2/evd/web/templates/registration/_password_reset_email.html
+END

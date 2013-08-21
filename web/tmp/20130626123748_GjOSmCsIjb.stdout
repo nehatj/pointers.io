@@ -1,0 +1,4 @@
+STACK OPERATION
+	if (s.top == (5 - 1))
+	     ^
+/home/pointers.io/pointers/web/tmp/20130626123748_GjOSmCsIjb.c:23: 's' is undefined

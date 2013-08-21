@@ -1,0 +1,3 @@
+    insert();
+           ^
+/home/pointers.io/pointers/web/tmp/20130626144331_sXnCCOzYmw.c:11: 'insert' is undefined

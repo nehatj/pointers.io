@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<li class="active"><a  href="/" style="font-size:130%" title="Go to Home Page"><i class="icon-home"></i>Home</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/learn" title="Learn to write codes in C"><i class="icon-pencil icon-white"></i>Learn C</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/example" title="Check out the Sample C Codes"><i class="icon-th-list icon-white"></i>Example</a></li>
+<li class="" style="margin-left:350px"><a href="/howtouse" style="font-size:130%" title="Know more about me!"><i class=" icon-retweet icon-white"></i>Know More</a></li>
+{% endblock %}
+
+{% block content %}
+
+<div class="container"><br/> </div>
+  <div id="pyInputPane">
+  <div class="alert alert-info">
+  <p style="margin-top: 6px;"> <b> Write your C code here:</b></p></div>
+    <!-- populate with a CodeMirror instance -->
+
+  <div id="codeInputPane"></div>
+
+    <!-- TODO: Remove following references in javascript and cleanup following code-->
+
+    <p style="margin-top: 10px; display:none;">
+        Execute code using
+    <select id="pythonVersionSelector">
+        <option value="2">Python 2.7</option>
+        <option value="3">Python 3.2</option>
+      </select>
+        and
+      <select id="cumulativeModeSelector">
+        <option value="false">don't display exited functions (default).</option>
+        <option value="true">display frames of exited functions.</option>
+      </select>
+</p>
+
+<p style="text-align: center; margin-top: 20px;">
+      <button id="executeBtn" class="btn btn-large btn-primary" type="button">Visualize execution</button>
+    </p>
+</div>
+<div id="pyOutputPane"></div>
+{% endblock %}

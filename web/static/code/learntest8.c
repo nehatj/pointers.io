@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main ()
+{
+  int i, n = 10;
+  printf ("I'm going to while-loop\n");
+  do
+    {
+
+      printf ("%d\n", i);
+      i++;
+    }while (i < n);
+
+  return 0;
+}

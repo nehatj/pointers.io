@@ -1,0 +1,9 @@
+STACK OPERATION
+poped element is = 5
+
+The status of the stack is
+5
+
+}
+^
+/home/pointers.io/pointers/web/tmp/20130626124253_zqVDbEVBtm.c:74: no value returned from a function returning int

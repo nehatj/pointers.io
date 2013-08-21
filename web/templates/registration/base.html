@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">0-->
+{% block header %}
+<li class=""><a  href="/" style="font-size:130%" title="Go to Home Page"><i class="icon-home icon-white"></i>Home</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/learn" title="Learn to write codes in C"><i class="icon-pencil icon-white"></i>Learn C</a></li>
+ <li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/example" title="Check out the Sample C Codes"><i class="icon-th-list icon-white"></i>Example</a></li>
+<li class="" style="margin-left:350px"><a href="/howtouse" style="font-size:130%" title="Know more about me!"><i class=" icon-retweet icon-white"></i>Know More</a></li>
+{% endblock %}
+
+<head>
+    <style>
+      input.required, error {
+        border: 2px solid red;
+      }
+    </style>
+    <title>{% block title %}Tagging Exploration{% endblock %}</title>
+</head>
+
+<body>
+    <div id="sidebar">
+        {% block sidebar %}{% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+        {% block main_content %}{% endblock %}
+    </div>
+</body>
+</html>

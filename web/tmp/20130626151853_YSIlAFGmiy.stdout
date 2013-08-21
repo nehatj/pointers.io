@@ -1,0 +1,3 @@
+         node *ptr;
+         ^
+/home/pointers.io/pointers/web/tmp/20130626151853_YSIlAFGmiy.c:12: 'node' is undefined

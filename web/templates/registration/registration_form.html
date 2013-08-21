@@ -1,0 +1,95 @@
+{% extends "registration/base.html" %}
+
+{% block title %}Sign up{% endblock %}
+
+
+{% block content %}
+
+<!--<div class="row-fluid">
+<div class="span5"  style="border-right: 1px solid #BABABA">-->
+ <div class="container">
+ <div class="row">
+ </div>
+ <div class="span9 offset1 simple_form well" style="background-color:white;">
+ <div class="span2"></div><!--/span-->
+ <div class="span6">
+ </div>
+<div class="row-fluid">
+<div class="span6"  style="border-right: 1px solid #BABABA">
+<ul class="thumbnails" style="margin-left:20px">
+<li class="span8" style="background-color:#F0F8FF">
+<div class="thumbnail">
+  <h1>Create an account</h1>
+    {% if form.errors %}
+    <p class="errors">Please correct the errors below: {{ form.non_field_errors }}</p>
+    {% endif %}
+  <form method="post" action="" class="wide">
+	{% csrf_token %}
+    <p>
+      <label for="id_username">Choose your Username</label>
+      {% if form.username.errors %}
+        <p class="errors">{{ form.username.errors.as_text }}</p>
+      {% endif %}
+      {{ form.username }}
+    </p>
+    <p>
+      <label for="id_email">Email Address</label>
+      {% if form.email.errors %}
+        <p class="errors">{{ form.email.errors.as_text }}</p>
+      {% endif %}
+      {{ form.email }}
+    </p>
+    <p>
+      <label for="id_password1">Password</label>
+      {% if form.password1.errors %}
+        <p class="errors">{{ form.password1.errors.as_text }}</p>
+      {% endif %}
+      {{ form.password1 }}
+    </p>
+    <p>
+      <label for="id_password2">Confirm Password</label>
+      {% if form.password2.errors %}
+        <p class="errors">{{ form.password2.errors.as_text }}</p>
+      {% endif %}
+      {{ form.password2 }}
+    </p>
+    <p class="submit"><input class="btn btn-large" type="submit" value="Register &rarr;"></p>
+  </form>
+</li>
+</ul>
+</div>
+<!--last div tag-->
+<div class="span6">
+<ul class="thumbnails" style="margin-left:20px">
+<li class="span14" style="background-color:#F0F8FF">
+<div class="thumbnail">
+<h3>Login using Facebook|Google|Github</h3>
+<center>
+
+<p>
+<a class="btn-auth btn-facebook large" href="/login/facebook" style="font-size:18px;    text-align:center;">Sign in with <b>Facebook</b>
+</a></p>
+<p>
+<a class="btn-auth btn-google large" href="/login/google-oauth2" style="font-size:18px;width:240px;text-align:center;">Sign in with <b>Google</b>
+</a></p>
+<p>
+<a class="btn-auth btn-github large" href="/login/github" style="font-size:18px;    width:240px;text-align:center;">Sign in with <b>GitHub</b>
+</a></p>
+</center>
+</div>
+</li></ul>
+
+</div></div>
+{% endblock %}
+
+{% block content-related %}
+<p>Fill out the form to the left (all fields are required), and your
+account will be created; you'll be sent an email with instructions on how
+to finish your registration.</p>
+
+<p>We'll only use your email to send you signup instructions. We hate spam
+as much as you do.</p>
+
+<p>This account will let you log into the ticket tracker, claim tickets,
+and be exempt from spam filtering.</p>
+{% endblock %}

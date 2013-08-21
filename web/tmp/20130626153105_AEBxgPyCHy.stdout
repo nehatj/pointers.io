@@ -1,0 +1,3 @@
+        head.num=10;
+             ^
+/home/pointers.io/pointers/web/tmp/20130626153105_AEBxgPyCHy.c:22: can't use '.' on something that's not a struct or union  : it's a struct node*

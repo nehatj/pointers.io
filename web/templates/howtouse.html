@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<li class=""><a  href="/" style="font-size:130%" title="Go to Home Page"><i class="icon-home icon-white"></i>Home</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/learn" title="Learn to write codes in C"><i class="icon-pencil icon-white    "></i>Learn C</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/example" title="Check out the Sample C Codes"><i class="icon-th-list icon-white"></i>Example</a></li>
+<li class="active" style="margin-left:350px"><a href="/howtouse" style="font-size:130%" title="Know more about me!"><i class=" icon-retweet icon-white"></i>Know More</a></li>
+{% endblock %}
+
+
+{% block content %}
+<!--<style>
+.s_share {
+     background:url(/static/img/background_diag.jpg) repeat;
+     padding-bottom:-5px;
+     position:absolute;
+}
+.sidebar {
+width: 160px;
+float: right;
+padding-left: 5px;
+}
+body {
+font-family: "Proxima Nova","proximanova","Open Sans",sans-serif;
+font-size: 16px;
+line-height: 24px;
+color: #333;
+}
+body .container{
+    width:980px;
+  }
+  h2 {
+  font-size: 40px;
+  line-height: 60px;
+  }
+  h1, h2, h3, h4 {
+  font-weight: 300;
+  }
+    p{
+        font-size:20px;
+    }
+    img {
+        box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset, 0 1px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #cdcdcd;
+                }
+</style>
+</head>
+<body>
+<div class="head">
+<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar-inner">
+<div class="container">
+<ul class="nav">
+<li style="margin-bottom:5px;margin-left:-40px"><a class="btn btn-primary" style="color:white;" href="/">Pointers.io</a></li>
+
+<li class=""><a  href="/" style="font-size:130%" title="Go to Home Page"><i class="icon-home icon-white"></i>Home</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/learn" title="Learn to write codes in C"><i class="icon-pencil icon-white"></i>Learn C</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/example" title="Check out the Sample C Codes"><i class="icon-th-list icon-white"></i>Example</a></li>
+<li class="active" style="margin-left:400px"><a href="/" style="font-size:130%" title="Know more about me!"><i class=" icon-retweet icon-white"></i>Know More</a></li>
+</ul>
+<span class=s_share>
+<ul class="nav">
+<li class=""><a href="/" title="Find us on Facebook!"><img src="/static/img/icon_fb.png"/></a></li>
+<li class=""><a href="/" title="Follow us on Twitter!"><img src="/static/img/icon_twitter.png"/></a></li>
+<li class=""><a href="/" title="Follow us on Google+!"><img src="/static/img/icon_gplus.png"/></a></li>
+</ul>
+<span>
+</div>
+</div>
+</div>
+</div>
+-->
+<div class="container">
+      <div class="row-fluid">
+              <div class="span2"></div>
+              <div class="span8">
+             <div class="page-header"style="text-align:center">
+             <h2>Getting started with Pointers.io</h2>
+             <h3>An Interactive C platform!</h3></div>
+             <div class="row-fluid">
+             <div class="span6 vertically-align">
+             <div class="page-header">
+                <h3>Write C Code</h3>
+             </div>
+                <p class="text-info">Write the C code in the console provided</p>
+             </div>
+            <div class="span6">
+            <img src="/static/img/rsz_first.png" style="width:600px;"/>
+            </div>
+
+            </div><!--inner row-fluid-->
+            <hr/>
+            <div class="row-fluid">
+                <div class="span6">
+                    <img alt="" src="/static/img/visualizeuse.gif"/>
+                </div>
+                <div class="span6 vertically-align">
+                    <div class="page-header"><h3>Visualize the Result</h3></div>
+                    <p class="text-info">Once you complete your code.Click on the "Visualize execution" button to visualize the output</p>
+                    <div class="alert alert-info"><span class="label">Note</span> If the code has some error the code will not be executed and alert message shall appear suggesting the correction!</div>
+
+                </div>
+            </div>
+            <hr/>
+            <div class="row-fluid">
+                <div class="span6 vertically-align">
+                <div class="page-header">
+                    <h3>The Result</h3>
+                </div>
+                    <p class="text-info">The output for the code written appears which can be checked stepwise along with stack frames</p>
+                </div>
+                <div class="span6">
+                    <img alt="" src="/static/img/rsz_1rsz_1result3.png"/>
+                </div>
+                </div>
+                <hr/>
+            <div class="row-fluid">
+                <div class="span6 vertically-align">
+                <div class="page-header">
+                    <h3>Learn C</h3>
+                </div>
+                   <p class="text-info">An tutorial to learn C interactively</p>
+                    <h3>Features</h3>
+                    <ul style="list-style:none">
+                        <li><span class="badge badge-info">1</span> Learn by coding.</li>
+                        <li><span class="badge badge-info">2</span> Execute the code,check output</li>
+                        <li><span class="badge badge-info">3</span> Edit the code and learn more!</li>
+                    </ul>
+                </div>
+                <div class="span6 vertically-align">
+                <div class="page-header">
+                    <h3>Examples</h3>
+                </div>
+                    <p class="text-info">Try out the various examples and learn!</p>
+                </div>
+            </div>
+                <hr/>
+<div style="text-align:center;margin-top:50px; margin-bottom: 20px; width:50%; margin:auto;">
+    <h3><a href="/" class="btn btn-large btn-primary large-button" style="margin-top:20px;color:white;">Start Learning</a></h3>
+    </div>
+
+            <!--more code here-->
+
+            </div></div></div><!--span 8.also needed for container,row-fluid-->
+
+              </div>
+              </div>
+              </div>
+              </div>
+
+{% endblock %}

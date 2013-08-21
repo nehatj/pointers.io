@@ -1,0 +1,3 @@
+    head  = (NODE *)malloc(sizeof(NODE));
+                   ^
+/home/pointers.io/pointers/web/tmp/20130626153159_TmobZUqLHF.c:19: operator not expected here

@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<li class=""><a  href="/" style="font-size:130%" title="Go to Home Page"><i class="icon-home icon-white"></i>Home</a></li>
+<li class=""><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/learn" title="Check out the Sample C Codes"><i class="icon-pencil icon-white"></i>Learn C</a></li>
+<li class="active"><a style="display:block;font-size:130%" id="aliasExampleLink" class="ex1"  href="/example" title="Check out the Sample C Codes"><i class="icon-th-list icon-white"></i>Example</a></li>
+<li class="" style="margin-left:350px"><a href="/" style="font-size:130%" title="Know more about me!"><i class=" icon-retweet icon-white"></i>Know More</a></li>
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+<div class="span9">
+<h1> Examples </h1>
+<table class="table">
+<tbody>
+
+<tr>
+<td><span class="badge badge-info">1</span> </td> <td> <a id="aliasExampleLink" href="/#filename=newtest0.c"> Hello World </a> </td>
+</tr>
+<tr>
+<td><span  class="badge badge-info">2</span> </td> <td> <a href="/#filename=newtest1.c"> Variables in C </a> </td>
+<tr>
+<td><span class="badge badge-info">3</span> </td> <td> <a href="/#filename=newtest2.c"> If Example </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">3</span></td> <td> <a href="/#filename=test3.c"> Recursion </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">4</span> </td> <td> <a href="/#filename=test4.c"> Arrays </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">5</span></td> <td> <a href="/#filename=test5.c"> Pointers </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">6</span></td> <td> <a href="/#filename=test2.c"> Pointer to Arrays </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">7</span></td> <td> <a href="/#filename=test7.c"> Two dimensional Arrays </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">8</span></td> <td> <a href="/#filename=test9.c"> Structures </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">9</span></td> <td> <a href="/#filename=test13.c"> Array of Pointers </a> </td>
+</tr>
+<tr>
+<td><span class="badge badge-info">10</span></td> <td> <a href="/#filename=test15.c"> Unions </a> </td>
+</tr>
+
+</tbody>
+    </table>
+      </div>
+        </div>
+        </div>
+<hr/>
+
+{% endblock %}
